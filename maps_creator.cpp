@@ -164,7 +164,7 @@ This will read files with <texture_name>_channel, where channel can be one of:)"
     file << "{"                                 << "\n";
     file << "  $maps1alpha " << uint32_t(state) << "\n";
 
-    for (uint32_t i = 0; i < writtenMaps.count(); i++) {
+    for (uint32_t i = 0; i < writtenMaps.size(); i++) {
       if (!writtenMaps[i])
         continue;
 
